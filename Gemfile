@@ -4,14 +4,12 @@ if ENV['HEROKU_APP_NAME']
   ruby '2.2.2'
 end
 
-gem 'locomotivecms', '~> 3.3.0'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.8'
+gem 'rails', '~> 4.2.8'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -42,6 +40,8 @@ gem 'puma_worker_killer'
 
 gem 'derailed', group: :development
 
+# DEV
+gem 'locomotivecms', '~> 3.3' 
 # gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '60732f3'
 
 # GITHUB
@@ -67,3 +67,5 @@ end
 group :production do
   gem 'rails_12factor'
 end
+
+gem 'platform-api', '~> 0.3.0'
