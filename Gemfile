@@ -41,7 +41,7 @@ gem 'puma_worker_killer'
 gem 'derailed', group: :development
 
 # DEV
-gem 'locomotivecms', '~> 3.2.1'
+gem 'locomotivecms', github: 'locomotivecms/engine', ref: 'af10d4f'
 # gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '60732f3'
 
 # GITHUB
@@ -68,4 +68,4 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'platform-api', '~> 2'
+gem 'platform-api', '~> 0.3.0'
