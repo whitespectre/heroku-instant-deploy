@@ -309,6 +309,7 @@ GEM
     multi_xml (0.5.5)
     net-ssh (3.0.2)
     netrc (0.11.0)
+    newrelic_rpm (4.8.0.341)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     nokogumbo (1.4.7)
@@ -444,6 +445,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   locomotivecms!
+  newrelic_rpm
   platform-api (~> 0.3.0)
   puma (~> 2.15.3)
   puma_worker_killer
@@ -457,4 +459,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.11.2
+   1.14.6
